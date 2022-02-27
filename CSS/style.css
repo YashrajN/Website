@@ -233,6 +233,22 @@ header img {
 }
 
 /* Work Experience */
+.collapsible {
+  margin-top: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  border: none;
+  color: var(--proBtnText);
+  background: var(--proBtn);
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.collapsible:hover {
+  background: var(--proBtnHov);
+  transform: scale(1.04);
+}
 .texta {
   text-decoration: none;
 }
